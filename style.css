@@ -5,14 +5,21 @@ body {
   color: #000;
   font-family: "Patrick Hand";
   font-size: 2rem;
-}
-
-body * {
-  box-sizing: border-box;
+  margin-bottom: 5vmin;
 }
 
 input, button {
   font-size: 2rem;
+}
+
+img {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #title {

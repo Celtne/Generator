@@ -17,8 +17,8 @@ executeButton.addEventListener("click", function(){
 function generate(incUserInput) {
   let randomIndex = Math.floor(Math.random() * times.length);
   let selectedRandomTimeText = times[randomIndex];
-  imageElem = matchingImage[randomIndex];
   outputParagraph.innerText = incUserInput + " you are a " + selectedRandomTimeText;
+  imageElem.src = matchingImage[randomIndex];
 }
 
 
